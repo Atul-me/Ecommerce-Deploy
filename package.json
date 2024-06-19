@@ -1,0 +1,30 @@
+{
+  "name": "ecom",
+  "version": "1.0.0",
+  "description": "An Ecommerce Application using technologies React.js(Frontend), Node.js(Server side), Express.js(Handling operation), MongoDB(Database)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js",
+    "client": "npm start --prefix ./client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Atul Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-formidable": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "mongoose": "^8.4.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0",
+    "paypal-rest-sdk": "^1.8.1",
+    "slugify": "^1.6.6"
+  }
+}
